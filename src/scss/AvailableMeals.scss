@@ -1,0 +1,13 @@
+@import 'mixing';
+.available-meals {
+	max-width: 60rem;
+	width: 90%;
+	margin: 2rem auto;
+	@include meals-appear;
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+}
